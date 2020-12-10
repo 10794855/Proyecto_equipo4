@@ -1,4 +1,4 @@
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,11 +6,11 @@ ul {
   background-color: #333;
 }
 
-li {
+li.lista1 {
   float: left;
 }
 
-li a {
+li.lista1 a {
   display: block;
   color: white;
   text-align: center;
@@ -18,6 +18,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+li.lista1 a:hover {
   background-color: #111;
 }
