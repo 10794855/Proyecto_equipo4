@@ -1,1 +1,46 @@
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 30%
+}
 
+li.lista1 {
+  float: left;
+}
+
+li.lista1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.lista1 a:hover {
+  background-color: #111;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.columna1 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.columna2 {
+  float: center;
+  width: 33.33%;
+  padding: 15px;
+}
+.columna3 {
+  float: left;
+  width: 60%;
+  padding: 15px;
+}
