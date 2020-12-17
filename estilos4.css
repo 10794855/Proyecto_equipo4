@@ -21,3 +21,7 @@ li.lista1 a {
 li.lista1 a:hover {
   background-color: #111;
 }
+.header {
+  padding: 20px;
+  text-align: center;
+}
