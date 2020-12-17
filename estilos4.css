@@ -25,3 +25,8 @@ li.lista1 a:hover {
   padding: 20px;
   text-align: center;
 }
+.h1{
+  text-align:center;
+  color:green;
+  text-decoration: underline;
+}
