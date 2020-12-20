@@ -4,6 +4,7 @@ ul.menu {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  opacity: 30%
 }
 
 li.lista1 {
@@ -21,13 +22,67 @@ li.lista1 a {
 li.lista1 a:hover {
   background-color: #111;
 }
+
 .header {
   padding: 20px;
   text-align: center;
 }
+
+
+
 .h1{
   text-align:center;
   color:green;
-  text-decoration: underline;
-   font-family: Copperplate, Papyrus, fantasy;
+  text-decoration:underline;
+  font-family: Copperplate;
+}
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+  opacity: 85%;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
