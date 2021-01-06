@@ -1,10 +1,18 @@
+a:link {
+  text-decoration: none;
+}
 ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  opacity: 30%
+  background-color: none;
+  opacity: 100%;
+  position: relative;
+  left: -100px;
+  top: 100px;
+  
+  
 }
 
 li.lista1 {
@@ -17,71 +25,92 @@ li.lista1 a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #111;
+  opacity: 90%;
+  width: 100%;
+ 
 }
 
 li.lista1 a:hover {
-  background-color: #111;
+  background-color: #252728;
+   opacity: 100%
 }
 
 .header {
-  padding: 20px;
+  padding: 100px;
   text-align: center;
+  background-image: url("https://pixnio.com/free-images/2017/08/30/2017-08-30-07-00-48-1000x562.jpg");
+  background-size: cover;
 }
 
 
-.h1{
-  text-align:center;
-  color:green;
+
+h1{
+  text-align: center;
+  color: white;
   text-decoration:underline;
   font-family: Copperplate;
-}
-
-
-
-div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-  opacity: 85%;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 * {
   box-sizing: border-box;
 }
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+div.caja1 {
+  
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://pixnio.com/free-images/2017/08/16/2017-08-16-07-59-49-1000x664.jpg");
+  background-size: 100%;
+  background-size: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+div.caja2 {
+  
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wv_Tokyo_banner.jpg/800px-Wv_Tokyo_banner.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+div.caja:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
 }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+div.boton {
+  
+  height: 7%;
+  width: 20%;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration:none;
+  
+  
+}
+div.boton:hover {
+  background-color: #53CAF3;
+}
+.info {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  color: white;
+  text-decoration: none;
+}
+.info:hover {
+	border-width: 0px;
+}
+.textopais {
+  text-align:center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+}
+h2.nombrepais{
+	padding-left: 5px;
+	padding-top: 5px;
 }
