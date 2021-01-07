@@ -59,9 +59,9 @@ div.caja1 {
   
   height: 33.33%;
   width: 60%;
-  background-image: url("https://pixnio.com/free-images/2017/08/16/2017-08-16-07-59-49-1000x664.jpg");
+  background-image: url("https://c.pxhere.com/images/0e/47/5ecd513146f4e68c6efe671e6513-1430967.jpg!d");
   background-size: 100%;
-  background-size: 40%;
+  
   margin-left: auto;
   margin-right: auto;
   
@@ -70,12 +70,64 @@ div.caja2 {
   
   height: 33.33%;
   width: 60%;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wv_Tokyo_banner.jpg/800px-Wv_Tokyo_banner.jpg");
+  background-image: url("https://i2.wp.com/gacetinmadrid.com/wp-content/uploads/2019/01/New_york_times_square-terabass.jpg?resize=800%2C445&ssl=1");
   margin-left: auto;
   margin-right: auto;
-  
+  background-size: 100%;
 }
-div.caja:hover {
+div.caja3 {
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Marginal_do_Rio_Pinheiros_-_S%C3%A3o_Paulo_-_Brasil.jpg/800px-Marginal_do_Rio_Pinheiros_-_S%C3%A3o_Paulo_-_Brasil.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+div.caja4 {
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://japonismo.com/wp-content/uploads/2015/05/13352228015_650d64ba52_o.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+div.caja5 {
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://pixnio.com/free-images/2017/10/21/2017-10-21-07-45-23-1100x619.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+div.caja6 {
+  height: 33.33%;
+  width: 60%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Australia_Day.jpg/800px-Australia_Day.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 100%;
+}
+div.caja1:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
+}
+div.caja2:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
+}
+div.caja3:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
+}
+div.caja4:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
+}
+div.caja5:hover {
+  opacity: 87%;
+  background-color: #CCE8F1;
+}
+div.caja6:hover {
   opacity: 87%;
   background-color: #CCE8F1;
 }
@@ -110,7 +162,13 @@ div.boton:hover {
   padding-right: 10px;
   padding-top: 30px;
 }
-h2.nombrepais{
-	padding-left: 5px;
-	padding-top: 5px;
+h2.nombrepaisblanco{
+	padding-left: 15px;
+	padding-top: 15px;
+	color: white;
 }
+h2.nombrepais{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
