@@ -78,7 +78,7 @@ div.caja2 {
 div.caja3 {
   height: 33.33%;
   width: 60%;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Marginal_do_Rio_Pinheiros_-_S%C3%A3o_Paulo_-_Brasil.jpg/800px-Marginal_do_Rio_Pinheiros_-_S%C3%A3o_Paulo_-_Brasil.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2018/05/20/16/44/brasil-3416186_960_720.jpg");
   margin-left: auto;
   margin-right: auto;
   background-size: 100%;
@@ -86,7 +86,7 @@ div.caja3 {
 div.caja4 {
   height: 33.33%;
   width: 60%;
-  background-image: url("https://japonismo.com/wp-content/uploads/2015/05/13352228015_650d64ba52_o.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/01/10/59/tokyo-2193354__340.jpg");
   margin-left: auto;
   margin-right: auto;
   background-size: 100%;
@@ -94,7 +94,7 @@ div.caja4 {
 div.caja5 {
   height: 33.33%;
   width: 60%;
-  background-image: url("https://pixnio.com/free-images/2017/10/21/2017-10-21-07-45-23-1100x619.jpg");
+  background-image: url("https://c.pxhere.com/photos/e7/db/rome_colosseum_italy_capital_ancient_rome_ancient_monument_romano-488588.jpg!d");
   margin-left: auto;
   margin-right: auto;
   background-size: 100%;
@@ -102,7 +102,7 @@ div.caja5 {
 div.caja6 {
   height: 33.33%;
   width: 60%;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Australia_Day.jpg/800px-Australia_Day.jpg");
+  background-image: url("https://c.pxhere.com/photos/c7/a6/bridge_australia_sydney_skyline_harbor-666163.jpg!d");
   margin-left: auto;
   margin-right: auto;
   background-size: 100%;
@@ -146,14 +146,21 @@ div.boton {
 div.boton:hover {
   background-color: #53CAF3;
 }
-.info {
+.infoblanco {
   border-style: solid;
   border-width: 2px;
   border-color: white;
   color: white;
   text-decoration: none;
 }
-.info:hover {
+.infonegro {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  color: black;
+  text-decoration: none;
+}
+.infoblanco:hover {
 	border-width: 0px;
 }
 .textopais {
@@ -161,6 +168,8 @@ div.boton:hover {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 30px;
+  color: white;
+  text-
 }
 h2.nombrepaisblanco{
 	padding-left: 15px;
@@ -171,4 +180,3 @@ h2.nombrepais{
 	padding-left: 15px;
 	padding-top: 15px;
 }
-
