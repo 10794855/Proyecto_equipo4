@@ -9,8 +9,8 @@ ul.menu {
   background-color: none;
   opacity: 100%;
   position: relative;
-  left: -100px;
-  top: 100px;
+  left: -125px;
+  top: 125px;
   
   
 }
@@ -37,9 +37,9 @@ li.lista1 a:hover {
 }
 
 .header {
-  padding: 100px;
+  padding: 125px;
   text-align: center;
-  background-image: url("https://pixnio.com/free-images/2017/08/30/2017-08-30-07-00-48-1000x562.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_960_720.png");
   background-size: cover;
 }
 
@@ -108,28 +108,28 @@ div.caja6 {
   background-size: 100%;
 }
 div.caja1:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.caja2:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.caja3:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.caja4:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.caja5:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.caja6:hover {
-  opacity: 87%;
-  background-color: #CCE8F1;
+  opacity: 89%;
+  
 }
 div.boton {
   
@@ -144,7 +144,7 @@ div.boton {
   
 }
 div.boton:hover {
-  background-color: #53CAF3;
+  background-color: #43C3FA;
 }
 .infoblanco {
   border-style: solid;
@@ -152,6 +152,7 @@ div.boton:hover {
   border-color: white;
   color: white;
   text-decoration: none;
+  font-family: helvetica;
 }
 .infonegro {
   border-style: solid;
@@ -159,6 +160,7 @@ div.boton:hover {
   border-color: black;
   color: black;
   text-decoration: none;
+  font-family: helvetica;
 }
 .infoblanco:hover {
 	border-width: 0px;
@@ -169,12 +171,22 @@ div.boton:hover {
   padding-right: 10px;
   padding-top: 30px;
   color: white;
-  text-
+  font-family: helvetica;
+}
+.cita {
+  text-align:left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  color: white;
+  font-family: helvetica;
+  font-style: italic;
 }
 h2.nombrepaisblanco{
 	padding-left: 15px;
 	padding-top: 15px;
 	color: white;
+	font-family: helvetica;
 }
 h2.nombrepais{
 	padding-left: 15px;
