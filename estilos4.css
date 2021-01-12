@@ -59,7 +59,7 @@ div.caja1 {
   
   height: 33.33%;
   width: 60%;
-  background-image: url("https://c.pxhere.com/images/0e/47/5ecd513146f4e68c6efe671e6513-1430967.jpg!d");
+  background-image: url("https://cdn.pixabay.com/photo/2017/06/04/16/33/pyramids-2371501_960_720.jpg");
   background-size: 100%;
   
   margin-left: auto;
@@ -144,51 +144,3 @@ div.boton {
   
 }
 div.boton:hover {
-  background-color: #43C3FA;
-}
-.infoblanco {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  color: white;
-  text-decoration: none;
-  font-family: helvetica;
-}
-.infonegro {
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-  color: black;
-  text-decoration: none;
-  font-family: helvetica;
-}
-.infoblanco:hover {
-	border-width: 0px;
-}
-.textopais {
-  text-align:center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30px;
-  color: white;
-  font-family: helvetica;
-}
-.cita {
-  text-align:left;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 30px;
-  color: white;
-  font-family: helvetica;
-  font-style: italic;
-}
-h2.nombrepaisblanco{
-	padding-left: 15px;
-	padding-top: 15px;
-	color: white;
-	font-family: helvetica;
-}
-h2.nombrepais{
-	padding-left: 15px;
-	padding-top: 15px;
-}
