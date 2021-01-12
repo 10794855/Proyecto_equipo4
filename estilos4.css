@@ -141,9 +141,10 @@ div.boton {
   text-align: center;
   text-decoration:none;
   
+  
 }
 div.boton:hover {
-background-color: #43C3FA;
+  background-color: #43C3FA;
 }
 .infoblanco {
   border-style: solid;
@@ -164,7 +165,6 @@ background-color: #43C3FA;
 .infoblanco:hover {
 	border-width: 0px;
 }
-	
 .textopais {
   text-align:center;
   padding-left: 10px;
@@ -190,4 +190,5 @@ h2.nombrepaisblanco{
 }
 h2.nombrepais{
 	padding-left: 15px;
-	}
+	padding-top: 15px;
+}
