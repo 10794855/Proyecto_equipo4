@@ -3,8 +3,8 @@ ul.menu {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  opacity: 30%
+  background-color: black;
+  opacity: 70%
 }
 
 li.lista1 {
@@ -34,15 +34,50 @@ li.lista1 a:hover {
   width: 60%;
   padding: 15px;
 }
-.columna2 {
-  float: left;
-  width: 60%;
-  padding: 15px;
+
+
+.imagengas {
+	float: left;
+	width; 40%%;
+	padding: 15px;
 }
-.columna3 {
-  float: left;
-  width: 60%;
-  padding: 15px;
+
+.imagenmon {
+	float: left;
+	width; 40%;
+	padding: 15px;
 }
+
+.imagentra {
+	float: left;
+	width; 40%;
+	padding: 15px;
+}
+
+.mapaitalia {
+	float: right;
+	width: 30%;
+    padding: 15px;
+	border-radius: 20px;
+}
+
+.videoitalia {
+	float: left;
+	width: 20%;
+	padding: 15px;
+	border-radius:50px;
+}
+
+.contacto {
+	float: center;
+	width: 30%;
+	padding:15px;
+	width: 465px;
+	height: 300px;
+	background: rgba(0,0,0,0.4);
+	padding:2px 4px;
+	border-radius:20px;
+	}
+
 
 
