@@ -34,20 +34,11 @@ li.lista1 a:hover {
   width: 60%;
   padding: 15px;
 }
-.columna2 {
-  float: left;
-  width: 60%;
-  padding: 15px;
-}
-.columna3 {
-  float: left;
-  width: 60%;
-  padding: 15px;
-}
+
 
 .imagengas {
 	float: left;
-	width; 40%;
+	width; 40%%;
 	padding: 15px;
 }
 
@@ -62,3 +53,16 @@ li.lista1 a:hover {
 	width; 40%;
 	padding: 15px;
 }
+
+.mapausa {
+	float: right;
+	width; 30%;
+    padding: 15px;
+}
+
+.videousa {
+	float: left;
+	width: 20%;
+	top padding: 15px;
+}
+
