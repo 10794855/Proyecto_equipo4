@@ -66,3 +66,17 @@ li.lista1 a:hover {
 	top padding: 15px;
 }
 
+}
+
+.contacto {
+	float: center;
+	width: 30%;
+	padding:15px;
+	width: 465px;
+	height: 300px;
+	background: rgba(0,0,0,0.4);
+	padding:2px 4px;
+	border-radius:20px;
+	}
+
+
