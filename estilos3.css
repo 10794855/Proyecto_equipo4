@@ -1,99 +1,98 @@
-ul . menu {
-  tipo de estilo de lista : ninguno;
-  margen : 0 ;
-  acolchado : 0 ;
-  desbordamiento : oculto;
-  color de fondo : # 333 ;
-  opacidad : 30 %
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 30%
 }
 
-li . lista1 {
-  flotar : izquierda;
+li.lista1 {
+  float: left;
 }
 
-li . lista1  a {
-  pantalla : bloque;
-  color : blanco;
-  alineación de texto : centro;
-  relleno : 14 px  16 px ;
-  decoración de texto : ninguna;
+li.lista1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-li . lista1  a : hover {
-  color de fondo : # 111 ;
+li.lista1 a:hover {
+  background-color: #111;
 }
-. encabezado {
-  relleno : 20 px ;
-  alineación de texto : centro;
-}
-
-
-. columna1 {
-  flotar : izquierda;
-  ancho : 60 % ;
-  relleno : 15 px ;
-}
-. columna2 {
-  flotar : izquierda;
-  ancho : 60 % ;
-  relleno : 15 px ;
-}
-. columna3 {
-  flotar : izquierda;
-  ancho : 60 % ;
-  relleno : 15 px ;
+.header {
+  padding: 20px;
+  text-align: center;
 }
 
 
-
-borde : 1 px sólido # ccc ;
+.columna1 {
+  float: left;
+  width: 60%;
+  padding: 15px;
+}
+.columna2 {
+  float: left;
+  width: 60%;
+  padding: 15px;
+}
+.columna3 {
+  float: left;
+  width: 60%;
+  padding: 15px;
 }
 
-div. galería : hover {
-  borde : 1 px sólido # 777 ;
+
+
+border: 1px solid #ccc;
 }
 
-div . galería  img {
-  ancho : 100 % ;
-  altura : auto;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-div . desc {
-  relleno : 15 px ;
-  alineación de texto : centro;
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 * {
-  tamaño de caja: caja de borde;
+  box-sizing: border-box;
 }
 
-. receptivo {
-  relleno : 0  6 px ;
-  flotar : izquierda;
-  ancho : 24,99999 % ;
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
 
-@media  solo pantalla y ( ancho máximo : 700 px ) {
-  . receptivo {
-    ancho : 49,99999 % ;
-    margen : 6 px  0 ;
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
 }
 
-@media  solo pantalla y ( ancho máximo : 500 px ) {
-  . receptivo {
-    ancho : 100 % ;
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
   }
 }
 
-. clearfix : después de {
-  contenido : "" ;
-  pantalla : mesa;
-  claro : ambos;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-h4 {
-	alineación de texto : centro
+h4{
+	text-align: center
 
 }
-
